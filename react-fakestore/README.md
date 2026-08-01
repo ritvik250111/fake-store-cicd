@@ -1,37 +1,31 @@
-# FakeStore E-Commerce App
+# React FakeStore E-Commerce CI/CD Pipeline
 
-A React-based e-commerce storefront utilizing the FakeStore API. Built with React Query for optimized data fetching and Redux Toolkit for cart state management.
+A modern, responsive e-commerce web application built with React, Vite, and Redux Toolkit. The project features automated testing and continuous integration and deployment (CI/CD) using GitHub Actions and Vercel.
 
-## Features
-* **Product Catalog:** Fetches and displays products dynamically.
-* **Category Navigation:** Filter products by dynamically fetched categories.
-* **Resilient Images:** Handles API image 404 errors with fallback placeholders.
-* **Shopping Cart:** Add/remove items, updates total quantities/prices dynamically.
-* **Persistent State:** Cart state survives page reloads utilizing `sessionStorage`.
-* **Checkout Simulation:** Clears the cart and storage while providing visual success feedback.
+## 🚀 Live Production URL
+* **Deployed Application**: [https://react-fakestore-ci-5iocz4amt-dhairya3.vercel.app/](https://react-fakestore-ci-5iocz4amt-dhairya3.vercel.app/)
 
-## Tech Stack
-* React + Vite
-* Redux Toolkit (State Management)
-* React Query / TanStack Query (Data Fetching / Caching)
-* React Router DOM (Routing)
+---
 
-## How to Run Locally
+## ✨ Key Features
+* **Product Catalog**: Dynamic fetching and displaying of e-commerce items.
+* **State Management**: Redux Toolkit for seamless shopping cart state management.
+* **Automated Testing**: Comprehensive unit and integration testing powered by Vitest and React Testing Library.
+* **CI/CD Pipeline**: Automated workflow running tests and deploying to Vercel on every push to `main`.
 
-1. **Clone the repository:**
-   \`\`\`bash
-   git clone <your-repo-link>
-   cd react-fakestore
-   \`\`\`
+---
 
-2. **Install dependencies:**
-   \`\`\`bash
-   npm install
-   \`\`\`
+## 🛠️ Tech Stack
+* **Frontend**: React, Vite, Redux Toolkit, CSS3
+* **Testing**: Vitest, JSDOM, React Testing Library
+* **CI/CD**: GitHub Actions
+* **Hosting/Deployment**: Vercel CLI
 
-3. **Start the development server:**
-   \`\`\`bash
-   npm run dev
-   \`\`\`
+---
 
-4. Open your browser and navigate to `http://localhost:5173`
+## 💻 Local Development Setup
+
+1. **Clone the repository**:
+   ```bash
+   git clone [https://github.com/ritvik25011/fake-store-cicd.git](https://github.com/ritvik25011/fake-store-cicd.git)
+   cd fake-store-cicd/react-fakestore
